@@ -1,0 +1,106 @@
+html, body {
+    margin:0 ;
+    padding: 0;
+    height: 100%;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    list-style-position: inside;
+    text-align: center;
+}
+
+#head1{
+    font-size: 40px;
+    background-color: bisque;
+    color: red;
+}
+
+#head2{
+    font-size: 25px;
+    color: rgb(81, 81, 81);
+}
+
+.urunler span{
+    display:inline-flex;    
+    width: 150px;
+    background: rgb(0, 0, 0);
+    color: bisque;
+}
+.urunler li{
+    margin-bottom: 50px;
+}
+
+.hover-menu{
+    width: 200px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.hover-menu li{
+    width: 0px;
+    list-style: 1;
+    list-style-type: none;
+}
+
+.hover-menu li a{
+    display: block;
+    width: 200px;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    border-right: 1px;
+    color: rgb(255, 153, 0);
+}
+
+.hover-menu li :hover a{
+    background: rgb(0, 0, 255);
+}
+.hover-menu li a span{
+    display: block;
+}
+
+.hover-menu li a span:first-child(){
+    font-weight: bold;
+    font-size: 12px;
+    color: antiquewhite;
+    padding-top: 10px;
+}
+
+.hover-menu li a span:nth-child(){
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    transition: color 0.2s linear;  
+}
+
+.hover-menu li:nth-child():hover span:nth-child(1){
+    color: rgb(229, 229, 229);
+}
+
+.hover-menu li img{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: left 0.4s ease-in-out, opacity 0.6s ease-in-out;
+
+}
+
+.hover-menu li:hover img{
+    left: 200px;
+    opacity:5 ;
+}
+
+img{
+    width: 150px;
+}
+
+h3{
+    color: brown;
+    font-size: 15px;
+}
+
+footer{
+    font-style: italic;
+    font-size: 10px;
+}

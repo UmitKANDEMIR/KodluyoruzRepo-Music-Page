@@ -1,10 +1,13 @@
-html, body {
-    margin:0 ;
-    padding: 0;
-    height: 100%;
-    font-family:  Calibri, 'Trebuchet MS', sans-serif;
-    list-style-position: inside;
-    text-align: center;
+/*
+
+.jtbcg{
+    background-color: rgb(47, 47, 47);
+    width: %90;
+    height: 50px;
+    border-radius: 5px;
+}
+.bcg{
+    background-color:#E9ECEF;
 }
 
 #head1{
@@ -103,4 +106,4 @@ h3{
 footer{
     font-style: italic;
     font-size: 10px;
-}
+} */
